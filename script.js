@@ -44,7 +44,7 @@ var time = setInterval(() => {
     min = hours.getMinutes()
         //AM PM converter logic
     if (hours.getHours() >= 13) {
-        hour = hours.getHours();
+        hour = hours.getHours() - 12;
         am = "PM";
     }
     if (hours.getHours() > 11) {
