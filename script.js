@@ -45,11 +45,11 @@ var time = setInterval(() => {
         //AM PM converter logic
     if (hours.getHours() > 11) {
         hour = hours.getHours();
-        am = "PPM";
+        am = "PM";
     }
     if (hours.getHours() >= 13) {
         hour = hours.getHours() - 12;
-        am = "PCM";
+        am = "PM";
     } else {
         hour = hours.getHours();
         am = "AM";
