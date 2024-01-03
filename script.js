@@ -47,7 +47,7 @@ var time = setInterval(() => {
         hour = hours.getHours();
         am = "PM";
     }
-    if (hours.getHours() >= 13) {
+    else if (hours.getHours() >= 13) {
         hour = hours.getHours() - 12;
         am = "PM";
     } else {
